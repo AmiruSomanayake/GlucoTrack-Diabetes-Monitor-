@@ -19,33 +19,27 @@ export default function HealthEducationScreen() {
       <Section
         colors={colors}
         title="What is Diabetes?"
-        body="Diabetes mellitus is a chronic condition where the body either does not produce enough insulin (Type 1) or cannot use insulin effectively (Type 2). Insulin is the hormone that helps glucose enter cells for energy. Without proper insulin function, glucose builds up in the blood."
-      />
+        body="blank"      />
       <Section
         colors={colors}
         title="Types of Diabetes"
-        body={`• Type 1: Autoimmune destruction of insulin-producing beta cells. Usually diagnosed in childhood. Requires lifelong insulin.\n\n• Type 2: Most common form. Caused by insulin resistance plus relative insulin deficiency. Strongly linked to lifestyle and genetics.\n\n• Gestational: Develops during pregnancy and increases the lifetime risk of Type 2 diabetes.\n\n• Prediabetes: Blood sugar is higher than normal but not yet in the diabetic range.`}
-      />
+        body="blank"      />
       <Section
         colors={colors}
         title="Common Symptoms"
-        body={`• Frequent urination (polyuria)\n• Excessive thirst (polydipsia)\n• Increased hunger\n• Unexplained weight loss\n• Fatigue\n• Blurred vision\n• Slow-healing wounds\n• Frequent infections`}
-      />
+        body="blank"      />
       <Section
         colors={colors}
         title="Diagnostic Criteria"
-        body={`• Fasting plasma glucose ≥126 mg/dL\n• Random plasma glucose ≥200 mg/dL with symptoms\n• 2-hour OGTT ≥200 mg/dL\n• HbA1c ≥6.5%\n\nA second confirmatory test is usually required for diagnosis.`}
-      />
+        body="blank"      />
       <Section
         colors={colors}
         title="Possible Complications"
-        body={`Long-term high blood sugar can damage blood vessels and nerves, leading to:\n\n• Cardiovascular disease (heart attack, stroke)\n• Kidney disease (nephropathy)\n• Eye damage (retinopathy, possible blindness)\n• Nerve damage (neuropathy)\n• Foot problems and ulcers\n• Skin and oral health issues\n\nGood control significantly reduces these risks.`}
-      />
+        body="blank"      />
       <Section
         colors={colors}
         title="Self-Monitoring Tips"
-        body={`• Check blood sugar at the times recommended by your doctor.\n• Keep a log of readings, meals, activity and medications.\n• Carry a fast-acting carbohydrate source if you take insulin or sulfonylureas.\n• Attend regular check-ups including HbA1c, eye, kidney and foot exams.\n• Wear a medical ID if you have insulin-dependent diabetes.`}
-      />
+        body="blank"      />
       <Text style={[styles.disclaimer, { color: colors.subText }]}>
         Always consult your healthcare provider for personalised medical advice.
       </Text>
